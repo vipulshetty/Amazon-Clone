@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .hoverOutline {
+    @apply hover:outline rounded outline-1 p-1;
+  }
+  .btn {
+    @apply p-2 text-sm md:text-sm inline-block text-center bg-gradient-to-b from-yellow-200 to-yellow-400 border border-yellow-300 rounded-sm focus:outline-none focus:ring-2 focus:ring-yellow-500 active:from-yellow-500 cursor-pointer;
+  }
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+}
+
+.carousel.carousel-slider .control-arrow:hover {
+  background-color: rgba(0, 0, 0, 0.1) !important;
+}
