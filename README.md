@@ -6,7 +6,7 @@ My motivation building this application was to build a simple e-commerce applica
 I will with high possibility add more features in the upcoming days.
 
 💻 Tech stack:
-React.js
-Tailwind CSS
-Redux Toolkit
-Firebase Authentication
+React.js,
+Tailwind CSS,
+Redux Toolkit,
+Firebase Authentication,
